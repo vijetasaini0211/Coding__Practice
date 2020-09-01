@@ -9,7 +9,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 	This challenge includes the use of input and output staements in python.
 
 ##### <i class="icon-file"></i> Day 1
-  This challenge includes the use of data-types and operations on them.
+        This challenge includes the use of data-types and operations on them.
 
 ##### <i class="icon-file"></i> Day 2
 	This challenge includes the basic operations of arithmetic operators.
