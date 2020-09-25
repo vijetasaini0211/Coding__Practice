@@ -1,0 +1,42 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <set>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    
+set<int>s;  
+int q,t,a;
+cin>>t;                //t stands for number of testcases here
+while(t--)
+{
+    cin>>q;
+    if(q==1)
+    {
+    cin>>a;
+    s.insert(a);      //To insert element in set
+    }
+    if(q==2)
+    {
+        cin>>a;
+        s.erase(a);   //To remove element from set
+    }
+    if(q==3)
+    {
+        cin>>a;
+       set<int>::iterator itr;   //Iterator for iterating throgh the set
+       itr=s.find(a);            //To find element from set
+       if(itr==s.end())
+       cout<<"No"<<endl;
+       else
+       cout<<"Yes"<<endl;
+    }
+}
+    return 0;
+}
+
+
+
